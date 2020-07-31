@@ -1,0 +1,46 @@
+<?php
+require_once("../crud/operation.php");
+
+?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>create project</title
+    </head>
+       <body>
+           <div> 
+        <form  action="operation.php"  method="post">
+        
+                <label for ="text">Titel:</label>
+          <input type="text"  name="titel" id="titel" placeholder="Enter Project titel">
+          <br>
+         <label for ="number">Finanzierungslimit</label>
+          <input type="number"  min="0" max="10000000" placeholder="1.0" step="0.01" name="limit">
+    <br>
+            <label for="radio">Kategorie:</label>
+          <input type="radio"  name="category" value="1">Health & Wellness
+          <input type="radio"  name="category" value="2""Art & creative works">Art & creative works
+                    <input type="radio" class="form-control" name ="category" value="3">Education
+                    <input type="radio" class="form-control" name="category" value="4">Tech & Innovation
+                <br>
+                    <label for="radio">vorgaenger:
+                    </label>
+                     <input type="radio"  name="vorgang" value=1>Ubuntu
+                    <input type="radio"  name="vorgang" value="2">Ubuntu Touch Pro
+                    <input type="radio"  name ="vorgang" value="3">Kein Vorgänger
+                   
+                
+                
+                  <label for="myarea"> Beschreibung: </label>
+                  <div class="form-group">
+                    <textarea id="myarea" name ="describ" rows="3" cols="50" placeholder="Insert the project description"></textarea>
+                    
+                    
+                </div>
+                <div> <input type="submit" name="create" value="Erstellen"></div>
+               
+         </form>
+         </div>
+       </body>
+</html>
