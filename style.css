@@ -44,12 +44,30 @@ ul{
  }
  .text-uppercase{
 
-    margin-left: 1rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
  }
  .aw-bio{
 
-    margin-left: 0.5rem;
+    margin-left: 2rem;
  }
  html {
     scroll-behavior: smooth;
   }
+  
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: darkblue;
+   color: white;
+   text-align: center;
+}
+.container-fluid
+{
+position: fixed;
+left: 0;
+width: :100%;
+
+}

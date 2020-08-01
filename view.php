@@ -9,19 +9,16 @@ $con = createdb();
     if(mysqli_num_rows($results) >0){
   while($row = mysqli_fetch_assoc($results)){
   echo $row['icon'] . "<br>";
-  echo"<a href='view_profile.php'> {$row['titel']}</a> .<br>";
+  echo"<a href='view_project.php?id=".$row['kennung']."'> {$row['titel']}</a> .<br>";
   echo "von: " . $row['name'] ."<br>" ;
   echo "amount:     "   . $row['sume'] . "<br>";
-  echo "<a href='editform.html?id=".$row['kennung']."'>Delete project</a>";
-  echo "<a href='delete.php?id=".$row['kennung']."'>Edit project</a>";
-  echo "<a href='delete.php?id=".$row['kennung']."'>Donate</a>";
-  echo "<br>";
-    
+  
+  
 } 
     }   
     
     else
     {
 
-        echo "try again no result generated";
+        echo "No project found";
     }
