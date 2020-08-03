@@ -25,7 +25,7 @@ $sql="INSERT INTO projekt(titel,beschreibung,finanzierungslimit,vorgaenger,kateg
 if(mysqli_query($GLOBALS['con'],$sql)){
 
     echo "<h1 style color:red;>you created a project on the database</h1>";
-    echo "<a href=view_main.html>Main</a>";
+    echo "<a href=myindex.php>Main</a>";
 }
 else {
     echo "error";

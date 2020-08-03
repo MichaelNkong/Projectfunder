@@ -1,7 +1,7 @@
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,600");
 body{
-background-color: rgb(17,76,70);
+background-color: white;
 font-family: "Montserrat",sans-serif;
 font-weight: 400;
 letter-spacing: -0.2px;
@@ -9,7 +9,7 @@ color: #;
 
 }
 
-a {
+a{
 
     color: rgba(71,190, 199, 0.75);
     
@@ -18,9 +18,10 @@ a:hover{
 color: #848d96;
 
 }
-li{
+li a{
 font-size: 1rem;
-padding: ;
+padding: 0.25rem;
+color: white;
 
 }
 ul{
@@ -30,7 +31,7 @@ ul{
 .navbar-nav > li{
     padding-left:10px;
     padding-right:10px;
-    float: right;
+    float:right;
   }
   navbar-nav > li{
     margin-left:5px;
@@ -39,8 +40,8 @@ ul{
   .container-fluid {
     padding-right:0;
     padding-left:0;
-    margin-right:auto;
-    margin-left:auto
+    
+   
  }
  .text-uppercase{
 
@@ -50,6 +51,7 @@ ul{
  .aw-bio{
 
     margin-left: 2rem;
+    font-size: 1.25rem;
  }
  html {
     scroll-behavior: smooth;
@@ -71,3 +73,4 @@ left: 0;
 width: :100%;
 
 }
+table { margin: 0 auto; }

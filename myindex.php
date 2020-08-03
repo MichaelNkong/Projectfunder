@@ -7,11 +7,11 @@
   <meta name="viewport"content="height=device-height, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
-  <title>view main</title>
+  <title>view_two</title>
 </head>
 <body>
   <div class="container-fluid">
-<nav class="navbar navbar-expand-sm bg-dark justify-content-left">
+<nav class="navbar navbar-expand-sm bg-dark justify-content-right">
   
     
       
@@ -31,7 +31,7 @@
         <div class="col">
          <h3 class="text-uppercase">Funderproject</h3>
         
-        <div class="aw-bio"><p>This project was aimed at putting the theory of database technology into practice. It involved creating a dabasebase with the help of SQL. It made use of XAMPP and PHP that was used to handle the request from the front end. </p></div>
+        <div class="aw-bio"><p>This project was aimed at putting the theory of database technology into practice. It involved creating a database with the help of SQL. It made use of XAMPP and PHP that was used to handle the request from the front end. </p></div>
           </div>
       </div>
   <footer class="fixed-bottom font-small dark">
