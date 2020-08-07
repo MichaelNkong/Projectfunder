@@ -1,5 +1,5 @@
 <?php
- 
+
  require_once("db.php");
  $con=createdb();
  $id=(int)$_REQUEST['id'];
@@ -43,7 +43,9 @@
  
  echo"Status: " .$row['status'] ."<br>";
  echo"<a href='view_project.php?id=".$row['kennung']."'> Delete Project</a>               ";
- echo"<a href='view_project.php?id=".$row['kennung']."'> Spenden</a>";
+ echo"<a href='spende.php?id=".$row['kennung']."'> Spenden</a>";
  
    }
+
+   
  
