@@ -11,7 +11,7 @@ $con = createdb();
 
     echo "<div style='padding-left:80%;'><a href=myindex.php>Home</a></div>";
     
-    echo " <div  style='text-align:center;color:black'><h1>offene Projekte</h1></div>";
+    echo " <div  style='text-align:center;color:black margin:2px'><h1>offene Projekte</h1></div>";
    
     
     if(mysqli_num_rows($results) >0){
@@ -44,9 +44,9 @@ $con = createdb();
     echo " <div  style='text-align:center;color:black'><h1>geschlossene Projekte</h1></div>";
     
     if(mysqli_num_rows($results2) >0){
-        echo "<div style='margin-left:500px;'>";
-      echo "<table style='border: 1px solid black;margin:20:width:100%'>";
-      echo"<tr ><th >Icon</th><th style='padding-left:10%';>Titel</th ><th style='padding-left:50%';>Von</th><th style='padding-left:30%';>Spenden</th></tr>";
+        echo "<div style='margin-left:400px;'>";
+      echo "<table style='border: 1px solid black margin:0>";
+      echo"<tr ><th>Icon</th><th style='padding-left:10%';>Titel</th ><th style='padding-left:35%';>Von</th><th style='padding-left:30%';>Spenden</th></tr>";
   while($row = mysqli_fetch_assoc($results2)){
    
   echo "<tr>";
